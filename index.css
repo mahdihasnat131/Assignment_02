@@ -1,0 +1,32 @@
+.banner{
+    background-color: turquoise;
+}
+.main-container{
+    justify-content: space-around;
+    
+}
+.cart-container {
+ width: 25%;
+ box-shadow: 4px 4px 8px gray;
+ margin:auto;
+ text-align: center;
+ position: fixed;
+ top: 100px;
+ left: 700px;
+}
+.player-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.card{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.card-img{
+    width: 200px;
+}
